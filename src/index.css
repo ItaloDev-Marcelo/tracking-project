@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme {
+  --breakpoint-nt: 85rem;
+  --breakpoint-dt: 90rem;
+}
+
+
+body::after {
+    content: '';
+    position: absolute;
+    right:0;
+    top:0;
+    display: block;
+    width: 52%;
+    height: 350px;
+    background-color: hsl(207, 33%, 95%);
+   border-bottom-left-radius: 30px;
+}
+
+
+ul li:nth-last-child(1)::before {
+    content: '';
+    display: block;
+    position:absolute;
+    width: 90%;
+    height: 1px;
+    background: gray;
+    border-radius: 50%;
+    top: 67%;
+    left: 5%;
+    padding:0 10px;
+}
+
+
+    ul li:nth-last-child(1) {
+    margin-top: 20px;
+}
+
+
+
+
+@media (min-width:1024px) {
+
+
+    body::after {
+    width: 50%;
+    height: 250px;
+}
+
+
+
+    ul li:nth-child(1) {
+    margin-left: -40px;
+}
+
+ul li:nth-last-child(1) {
+    margin-top:0;
+    margin-left: 70px;
+}
+
+ul li:nth-last-child(1)::before {
+    content: '';
+    display: block;
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+    top: 30%;
+    left: 75%;
+    padding:0;
+}
+
+}
+
+
+@media (min-width: 90rem) {
+        body::after {
+    width: 47%;
+    height: 450px;
+}
+
+
+
+}
