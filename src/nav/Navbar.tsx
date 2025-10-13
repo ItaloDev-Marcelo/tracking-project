@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className='flex flex-row gap-4 py-10 px-5 lg:px-20 md:mt-2 md:px-25 
-    justify-between relative dt:top-10 items-center z-1000 '>
+    justify-between relative dt:top-10 items-center z-1000 font-barlow font-bold '>
         <a href='#'><img src={Logo} alt='logo' /></a>
         <ul className={`absolute md:relative top-25 md:top-0 left-5.5 lg:left-[-1.5em]  md:left-0 z-100
         gap-5 flex  w-[330px] h-[250px] md:w-75 md:h-auto  items-center justify-center md:justify-normal
