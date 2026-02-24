@@ -79,7 +79,7 @@ ul li:nth-last-child(1)::before {
     background: gray;
     border-radius: 50%;
     top: 30%;
-    left: 75%;
+    left: 80%;
     padding:0;
 }
 
