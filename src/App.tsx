@@ -1,6 +1,5 @@
 import Home from './layout/Home';
 function App() {
- 
   return <Home />
 }
 
