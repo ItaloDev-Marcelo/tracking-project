@@ -8,7 +8,8 @@ const Home = () => {
     <>
       <Navbar />
       <main  className='overflow-x-hidden relative lg:top-14 nt:top-17  dt:top-45 xl:top-30 z-1'>
-        <section className='flex flex-col xl:flex-row-reverse items-center justify-between p-2.5 lg:p-2 ' >
+        <section className='flex flex-col xl:flex-row-reverse items-center justify-between p-2.5 md:px-12
+         m-2:p-4  lg:p-2 lg:mb-15 xl:mb-0 ' >
             <figure className=' w-100 xl:w-250 xl:w-min-200 mb-22 xl:mb-0 relative
              right-[-5em] lg:right-0  xl:right-[-15.8em]'>
                 <img src={Hero} alt='' />
